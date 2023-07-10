@@ -41,7 +41,7 @@ body {
 }
 
 .button{
-width:95px;
+width:105px;
 height: 30px;
 font-size: 15px;
 color: rgb(2, 106, 40);
@@ -55,8 +55,8 @@ margin-top: 5px;
 border: solid 2px rgb(34, 34, 34);
 }
 #restart{
-  width:175px;
-  height: 40px;
+  width:165px;
+  height: 30px;
   font-size: 15px;
   color: rgb(2, 106, 40);
   padding: 5px 10px;
@@ -87,7 +87,7 @@ box-shadow: inset 2px 2px 5px gray;
     position: fixed;
     z-index: 1000;
     top: 0;
-  height: 27%;
+  height: 30%;
   right: 0;
 }
 
@@ -110,8 +110,8 @@ box-shadow: inset 2px 2px 5px gray;
 
 #board {
   display: grid;
-  grid-template-columns: repeat(10, 95px);
-  grid-template-rows: repeat(10, 90px);
+  grid-template-columns: repeat(10, 35px);
+  grid-template-rows: repeat(10, 30px);
   border: 4px ridge silver;
   background-image: url("Assets/snl.jpg");
 
@@ -169,8 +169,8 @@ box-shadow: inset 2px 2px 5px gray;
   font-size: x-small;
   font-weight: bold;
   box-sizing: border-box;
-  width: 50px;
-  height: 50px;
+  width: 10px;
+  height: 10px;
 }
 
 .player {
